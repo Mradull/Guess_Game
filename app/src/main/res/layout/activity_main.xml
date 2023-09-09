@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Guess The Number Game!"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:paddingTop="190dp"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter A Guess"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="44dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/baseline_refresh_24"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="44dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="65dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/baseline_check_24"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="236dp"
+        android:fontFamily="@font/bungee"
+        android:hint="Hello"
+        android:textSize="24sp" />
+</LinearLayout>
